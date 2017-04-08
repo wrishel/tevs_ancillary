@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+echo This must be done manually to deal with the bug in install.sh
+echo
+exit 1
+# meant to run in Ubuntu 12
+#
+cd ~
+curl http://www.scootersoftware.com/bcompare-4.1.9.21719.x86_64.tar.gz > bcompare-4.1.9.21719.i386.tar.gz
+tar zxvf bcompare-4.1.9.21719.i386.tar.gz
+cd bcompare-4.1.9.21719
+sudo ./install.sh
+cd ..
+rm -r bcompare-4.1.9.21719
+

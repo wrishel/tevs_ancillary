@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#
+# meant to run in Ubuntu 12
+#
+cd ~
+curl http://www.scootersoftware.com/bcompare-4.1.9.21719.i386.tar.gz > bcompare-4.1.9.21719.i386.tar.gz
+tar zxvf bcompare-4.1.9.21719.i386.tar.gz
+cd bcompare-4.1.9.21719
+sed 's/\/usr\/bin\/grep/grep/' < install.sh > install1.sh
+chmod 700 install1.sh
+sudo ./install1.sh
+ls /usr/lib/b*
+cd ..
+rm -r bcompare-4.1.9.21719
+rm bcompare-4.1.9.21719.i386.tar.gz
+

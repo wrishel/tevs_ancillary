@@ -1,0 +1,253 @@
+Only in 2017/tevs: BalloSide.py
+diff -r 2013/tevs/BallotClass.py 2017/tevs/BallotClass.py
+1,4d0
+< # BallotClass.py
+< # Part of TEVS Trachtenberg Election Verification System
+< # Copyright 2009-2103 Mitch Trachtenberg
+< # Licensed under the GNU General Public License v2
+diff -r 2013/tevs/BallotSide.py 2017/tevs/BallotSide.py
+1,4d0
+< # BallotSide.py
+< # Part of TEVS Trachtenberg Election Verification System
+< # Copyright 2009-2103 Mitch Trachtenberg
+< # Licensed under the GNU General Public License v2
+53a50
+> import pdb
+424a422
+> 	"""
+429a428
+> 	"""
+diff -r 2013/tevs/BallotSideWalker.py 2017/tevs/BallotSideWalker.py
+521,526c521,527
+<                 for vop in self.box_results:
+<                     if vop.red_mean > (lowest_intensity + (.9*intensity_range)):
+<                         vop.voted = False
+<                         vop.ambiguous = False
+<                         vop.overvoted = False
+<                         self.current_votes = self.current_votes - 1
+---
+> 		# commenting out next two for loops as failing, mjt 11/15/2015
+>                 #for vop in self.box_results:
+>                 #    if vop.red_mean > (lowest_intensity + (.9*intensity_range)):
+>                 #        vop.voted = False
+>                 #        vop.ambiguous = False
+>                 #        vop.overvoted = False
+>                 #        self.current_votes = self.current_votes - 1
+528,531c529,532
+<                 for vop in self.box_results:
+<                     if vop.voted and (vop.red_mean < (lowest_intensity + (.5*intensity_range))):
+<                         vop.ambiguous = False
+<                         vop.overvoted = False
+---
+>                 #for vop in self.box_results:
+>                 #    if vop.voted and (vop.red_mean < (lowest_intensity + (.5*intensity_range))):
+>                 #        vop.ambiguous = False
+>                 #        vop.overvoted = False
+diff -r 2013/tevs/BallotVOPtoDB.py 2017/tevs/BallotVOPtoDB.py
+8d7
+< import const
+96c95
+<             self.conn = DB.connect(database=database, user=user, port=const.dbport)
+---
+>             self.conn = DB.connect(database=database, user=user, port=5433)
+101c100
+<                 self.conn = DB.connect(database=user, user=user, port=const.dbport)
+---
+>                 self.conn = DB.connect(database=user, user=user)
+121c120
+<                 self.conn = DB.connect(database=database, user=user, port=const.dbport)
+---
+>                 self.conn = DB.connect(database=database, user=user)
+225,228c224,225
+<                         #vop.crop_bbox[0], # dups
+<                         #vop.crop_bbox[1], # dups
+<                         vop.original_x,
+<                         vop.original_y,
+---
+>                         vop.crop_bbox[0],
+>                         vop.crop_bbox[1],
+diff -r 2013/tevs/basichart_ballot_side.py 2017/tevs/basichart_ballot_side.py
+12d11
+< import pdb
+diff -r 2013/tevs/config.py 2017/tevs/config.py
+9c9
+< 
+---
+> import pdb
+49d48
+< 
+202c201
+< 
+---
+>     #const.dbname = config.get("Database", "name")
+205d203
+<     const.dbport = config.get("Database","port")
+diff -r 2013/tevs/coord_adjust.py 2017/tevs/coord_adjust.py
+122,178d121
+< def coord_adjust_2(image, margin_w, margin_h):
+<     """Return an adjustment that should be applied to the upper left coordinate
+<        of the provided image in order to eliminate a dark edge
+<        within the provided image."""
+<     seq = list(image.getdata())
+<     y_adjust = 0
+<     x_adjust = 0
+<     w,h = image.size
+<     # Check for dark pixels at upper row that extend at least 1/32" into box
+<     dark_top = False
+<     dark_bottom = False
+<     dark_left = False
+<     dark_right = False
+<     req_extent = margin_w
+<     for x in range(w):
+<         if seq[x][0]<96:
+<             dark_top = True
+<             for test_y in range(req_extent):
+<                 # check extent
+<                 if seq[(test_y*w)+x][0]>128:
+<                     dark_top = False
+<                     break
+<         if dark_top: break
+<     for x in range(w):
+<         if seq[((h-1)*w)+x][0]<96:
+<             dark_bottom = True
+<             for test_y in range(req_extent):
+<                 # check extent
+<                 if seq[(((h-1)-test_y)*w)+x][0]>128:
+<                     dark_bottom = False
+<                     break
+<         if dark_bottom: break
+<     req_extent = margin_h
+<     for y in range(h):
+<         if seq[(y*w)][0]<96:
+<             dark_left = True
+<             for test_x in range(req_extent):
+<                 if seq[(y*w)+test_x][0]>128:
+<                     dark_left = False
+<                     break
+<         if dark_left: break
+<     for y in range(h):
+<         if seq[(y*w)+w-1][0]<96:
+<             dark_right = True
+<             for test_x in range(req_extent):
+<                 if seq[(y+w)+(w-1)-test_x][0]>128:
+<                     dark_right = False
+<                     break
+<         if dark_right: break
+< 
+<     if dark_top or dark_bottom or dark_left or dark_right:
+<         if dark_top and not dark_bottom: y_adjust -= (margin_h/2)
+<         elif dark_bottom and not dark_top: y_adjust += (margin_h/2)
+<         if dark_left and not dark_right: x_adjust -= (margin_w/2)
+<         elif dark_right and not dark_left: x_adjust += (margin_w/2)
+<     return x_adjust,y_adjust
+< 
+diff -r 2013/tevs/db_overvotes.py 2017/tevs/db_overvotes.py
+1,2d0
+< # Note: Not used in TEVS (see tevsgui_postprocess_db.py)
+< import const
+166c164
+<     conn = psycopg2.connect(database=sys.argv[1], user=sys.argv[2])
+---
+>     conn = psycopg2.connect(database=sys.argv[1], user=sys.argv[2], port=5433)
+diff -r 2013/tevs/db.py 2017/tevs/db.py
+9d8
+< import const
+75c74
+<             self.conn = DB.connect(database=database, user=user, port=const.dbport)
+---
+>             self.conn = DB.connect(database=database, user=user)
+79c78
+<                 self.conn = DB.connect(database=user, user=user, port=const.dbport)
+---
+>                 self.conn = DB.connect(database=user, user=user)
+99c98
+<                 self.conn = DB.connect(database=database, user=user, port=const.dbport)
+---
+>                 self.conn = DB.connect(database=database, user=user)
+diff -r 2013/tevs/hart_barcode.py 2017/tevs/hart_barcode.py
+59c59
+<         pdb.set_trace()
+---
+>         #pdb.set_trace()
+72c72
+<         pdb.set_trace()
+---
+>         #pdb.set_trace()
+diff -r 2013/tevs/tevsgui_db.py 2017/tevs/tevsgui_db.py
+1d0
+< # NOTE: Not used in tevs.
+14c13
+<         self.conn = DB.connect(database=database, user=user)
+---
+>         self.conn = DB.connect(database=database, user=user, port=5433)
+diff -r 2013/tevs/tevsgui_postprocess_db.py 2017/tevs/tevsgui_postprocess_db.py
+151,159d150
+< 
+< ("""update voteops set was_voted=True,overvoted=True,suspicious=True where voteop_id in (select voteop_id from overvote_diffs where intensity_less_avg < -5) """,
+< "Setting overvote as voted if much darker than average."
+< ),
+< 
+< ("""update voteops set was_voted=False,overvoted=True,suspicious=True where voteop_id in (select voteop_id from overvote_diffs where intensity_less_avg > 5) """,
+< "Setting overvote as unvoted if much lighter than average."
+< ),
+< 
+diff -r 2013/tevs/tevsgui.py 2017/tevs/tevsgui.py
+85c85
+< global_remaining_fails = 5
+---
+> global_remaining_fails = 200
+470a471
+>             self.logger.error("global_remaining_fails = %d" % (global_remaining_fails - 1));
+diff -r 2013/tevs/tevsgui_xmlrpc_processing_service.py 2017/tevs/tevsgui_xmlrpc_processing_service.py
+2,4d1
+< # Part of TEVS Trachtenberg Election Verification System
+< # Copyright 2009-2103 Mitch Trachtenberg
+< # Licensed under the GNU General Public License v2
+diff -r 2013/tevs/Transformer.py 2017/tevs/Transformer.py
+56d55
+<         # CHANGING INITIAL TARGET ANGLE TO 0 FROM 1
+78d76
+<             # IS IT MISTAKE TO USE SHORTDIFF INSTEAD OF VSHORTDIFF???!!!
+diff -r 2013/tevs/VOP.py 2017/tevs/VOP.py
+58,61d57
+<         # save original values for database entry
+<         self.original_x = x1 - h_margin
+<         self.original_y = y1 - v_margin
+< 
+123,144d118
+<         # The crop, if accurate, should not have darkness
+<         # extending to one edge but not the opposite unless
+<         # the user has made a mark, in which case we have a vote.
+<         # So, to add: check for darkness on one edge but not the other
+<         # of the new crop and, iff encountered,
+<         # try another adjustment in the direction towards the dark sides,
+<         # repeating up to 3x for x and 3x for y if the results become
+<         # darker
+<         for tries in range(3):
+<             adj_x,adj_y = coord_adjust.coord_adjust_2(
+<                 self.crop, h_margin, v_margin)
+<             if adj_x <> 0 or adj_y <> 0:
+<                 self.x1 += adj_x
+<                 self.y1 += adj_y
+<                 self.x2 += adj_x
+<                 self.y2 += adj_y
+<                 self.crop_bbox = (self.x1-h_margin,
+<                                   self.y1-v_margin,
+<                                   self.x2+h_margin,
+<                                   self.y2+v_margin)
+<                 self.crop=image.crop(self.crop_bbox)
+< 
+221,223c195,197
+<         c = (self.red_lowest + self.red_low 
+<              + self.blue_lowest + self.blue_low
+<              + self.green_lowest + self.green_low)/3
+---
+>         c = (self.red_lowest + self.red_low + self.red_high 
+>              + self.blue_lowest + self.blue_low + self.blue_high
+>              + self.green_lowest + self.green_low + self.green_high)/3
+331,332c305,306
+<              + self.blue_lowest + self.blue_low
+<              + self.green_lowest + self.green_low)/3
+---
+>              + self.blue_lowest + self.blue_low 
+>              + self.green_lowest + self.green_low )/3
