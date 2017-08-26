@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+SNAPDIR=/media/psf/Dropbox/Programming/ElectionTransparency/code_snapshots/`date +%y%0m%0d-%H%M`
+mkdir $SNAPDIR
+cp /usr/local/lib/python2.7/dist-packages/tevs/*.py $SNAPDIR
+echo $SNAPDIR
+

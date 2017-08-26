@@ -1,7 +1,11 @@
 import sys
 import re
 import os
-
+'''Accept a set of file paths from the file in fn. Remap each file path to the current image location and
+   issue a unix command line open command for each image. Append an input line that is intended to be
+   the HART precinct ID for the image. Write the original image path and the HART precinct ID to the 
+   output file x.csv.
+'''
 extr = re.compile('(\d\d\d)\_(\d+)')
 
 fn = "/Users/Wes/Dropbox/Programming/ElectionTransparency/helper/imagepaths.txt"
