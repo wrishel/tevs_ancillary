@@ -1,4 +1,13 @@
+XXX -- something here to create a SQL error
 
+/*
+
+This content has been moved to import_from_tevs_2.sql
+
+ */
+
+show SEARCH_PATH ;
+select count(*) from public.ballots;
 
 truncate ballots
 ;

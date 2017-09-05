@@ -1,0 +1,7 @@
+fancycompleter>=0.2
+ordereddict
+wmctrl
+pygments
+
+[funcsigs]
+funcsigs

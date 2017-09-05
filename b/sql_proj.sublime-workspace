@@ -1,0 +1,1020 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ballot",
+				"ballot_id"
+			],
+			[
+				"ball",
+				"ballot_id"
+			],
+			[
+				"no_",
+				"no_output"
+			],
+			[
+				"not",
+				"notranslation"
+			],
+			[
+				"gen",
+				"gen_output_row"
+			],
+			[
+				"get",
+				"gen_output_row"
+			],
+			[
+				"tr",
+				"tracing"
+			],
+			[
+				"sou",
+				"source_format"
+			],
+			[
+				"tra",
+				"tracing_line"
+			],
+			[
+				"out",
+				"out_columns"
+			],
+			[
+				"csv",
+				"csv_line"
+			],
+			[
+				"defa",
+				"default_psn"
+			],
+			[
+				"incl",
+				"include_rules"
+			],
+			[
+				"cs",
+				"csv_options"
+			],
+			[
+				"ship",
+				"ship_to"
+			],
+			[
+				"f",
+				"first_value"
+			],
+			[
+				"x",
+				"x_summary_by_contest"
+			],
+			[
+				"co",
+				"contest_title"
+			],
+			[
+				"n_",
+				"n_harts_wi_condensed_grp_1"
+			],
+			[
+				"choic",
+				"choice_harts"
+			],
+			[
+				"su",
+				"sum_total_votes"
+			],
+			[
+				"CA",
+				"candidate_type"
+			],
+			[
+				"Ballot",
+				"ballot_side"
+			],
+			[
+				"vo",
+				"voteop_value"
+			],
+			[
+				"ca",
+				"candidate_name"
+			],
+			[
+				"c",
+				"column_name"
+			],
+			[
+				"x_",
+				"x_multi_precinct_string_selected"
+			],
+			[
+				"context",
+				"contest_text"
+			],
+			[
+				"hart_c",
+				"hart_contest_title"
+			],
+			[
+				"t2h",
+				"t2h_contest"
+			],
+			[
+				"prev_",
+				"prev_file1_num"
+			],
+			[
+				"fil",
+				"file1_num"
+			],
+			[
+				"T",
+				"tevs_precinct_code_string"
+			],
+			[
+				"te",
+				"n_tevs_v_hart_2"
+			],
+			[
+				"con",
+				"contest_title"
+			],
+			[
+				"to",
+				"total_votes"
+			],
+			[
+				"n_tevs_",
+				"n_tevs_v_hart"
+			],
+			[
+				"pr",
+				"precinct_tevs"
+			],
+			[
+				"v",
+				"voteop_value"
+			],
+			[
+				"ha",
+				"hart_v_tevs"
+			],
+			[
+				"candidate_name",
+				"hart_candidate_name_pretty"
+			],
+			[
+				"tevs_v",
+				"n_tevs_voteops_per_precinct"
+			],
+			[
+				"pric",
+				"precinct_name"
+			],
+			[
+				"ba",
+				"ballot_id"
+			],
+			[
+				"fr",
+				"FROM"
+			],
+			[
+				"harts",
+				"harts_count"
+			],
+			[
+				"req",
+				"reqDate"
+			],
+			[
+				"ev",
+				"eventDate"
+			],
+			[
+				"autho",
+				"authorizeDiv"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"yyyym",
+				"yyyymmdd"
+			],
+			[
+				"from",
+				"fromISOish"
+			],
+			[
+				"time",
+				"timeMin"
+			],
+			[
+				"cal",
+				"calDivID"
+			],
+			[
+				"wor",
+				"workingMonth"
+			],
+			[
+				"add",
+				"addDays"
+			],
+			[
+				"set",
+				"setCellStyle"
+			],
+			[
+				"mon",
+				"monthId"
+			],
+			[
+				"mo",
+				"month"
+			],
+			[
+				"accum",
+				"accumHTML"
+			],
+			[
+				"ins",
+				"insertParameters"
+			],
+			[
+				"acc",
+				"accumHTML"
+			],
+			[
+				"cell",
+				"cellDay"
+			],
+			[
+				"ad",
+				"addDays"
+			],
+			[
+				"temp",
+				"templateFinder"
+			],
+			[
+				"display",
+				"displayMonth"
+			],
+			[
+				"tem",
+				"templateFinder"
+			],
+			[
+				"create",
+				"createDate"
+			],
+			[
+				"new",
+				"neweventdate"
+			],
+			[
+				"spl",
+				"splitlines"
+			],
+			[
+				"line",
+				"linedelim"
+			],
+			[
+				"inl",
+				"inlines"
+			],
+			[
+				"col",
+				"colRpt"
+			],
+			[
+				"re",
+				"reItemNum"
+			],
+			[
+				"lef",
+				"left_test"
+			],
+			[
+				"J",
+				"JAVA_HOME"
+			],
+			[
+				"else",
+				"else"
+			],
+			[
+				"vali",
+				"Valid_Categories"
+			],
+			[
+				"out_row",
+				"out_row"
+			],
+			[
+				"AMA",
+				"AMAZON_CATEGORY_XLATE"
+			],
+			[
+				"inspect",
+				"inspect_row"
+			],
+			[
+				"ou",
+				"output_row"
+			],
+			[
+				"self",
+				"self_instance"
+			],
+			[
+				"out_",
+				"out_row"
+			],
+			[
+				"C",
+				"CSVcolstemplate"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"El",
+				"Eliminate_value"
+			],
+			[
+				"In",
+				"Internet"
+			],
+			[
+				"com",
+				"comment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Sublime Packages/sql.sublime-build",
+					""
+				],
+				[
+					"Packages/Sublime Packages/xxx.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Sublime Packages/xxx.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"last_filter": "view",
+		"selected_items":
+		[
+			[
+				"view",
+				"File: New View into File"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 362.0,
+		"history":
+		[
+			"view.run_command('hl7unpacker')",
+			"view.run('hl7unpacker')",
+			"window.set_layout({'cells': [[0, 0, 1, 1]], 'rows': [0.0, 1.0], 'cols': [0.0, 1.0]})",
+			"window.set_layout({'cells': [[0, 0, 1, 1]], 'rows': [0.0, 1.0], 'cols': [0.0, 1.0]}",
+			"window.layout()",
+			"window.set_layout({\"cols\": [0, 0.5, 1], \"rows\": [0, 1], \"cells\": [[0, 0, 1, 1], [1, 0, 2, 1]] })",
+			"window.set_layout({",
+			"sublime.version()",
+			"``sublime.log_commands(True)``",
+			"``sublime.log_commands(True)``\n    1\t^~\\&\n    2\tMIRTH\n    3\tNCHIN\n    4\tOPENEMPI\n    5\tNCHIN\n    6\t20160614140959\n    7\t\n    8\tQBP^Q23^QBP_Q21zzz\n    9\tid20160614140959\n   10\tP\n   11\t2.5\nQPD\n    1\tIHE PIX Query\n    2\tQRY1243359573282\n    3\tSJ283935^^^SJ_MRN&ISO\nRCP\n    1\tI\n\n",
+			"~/bin/repackHL7.py"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/201703/n_tevs_v_hart_format_5.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/import_ballots_n_voteops.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/c.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/z_bad_voteops_by_intensity.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/201703/b.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/n_bal_voteops.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/etpx_create_t_harts_wi_condensed_grp.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/out_to_csv.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/201703/n_tevs_counts_mapped_5.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/McKvl_hand-rotated_3000.txt",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/n_bal_voteops_not_excluded.sql",
+		"/Users/Wes/Library/Application Support/Sublime Text 3/Packages/Sublime Packages/sql.sublime-build",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/helper/examineimages/reviewimglist.py",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b/n_tevs_v_hart_10.sql",
+		"/Users/Wes/NotForTheCloud/tevs_dump_270407.sql",
+		"/Users/Wes/Downloads/diffs2013to2017.txt",
+		"/usr/local/var/postgres/server.log",
+		"/tmp/subl stdin 9UZwJx.txt",
+		"/tmp/subl stdin Y1LtVs.txt",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/parsingrules.rb",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/categories.dat",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/ProcessVariousCSV.0.5.rb",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/2016.sh",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/2016/2016TaxData-WES.TXT",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/stderr.txt",
+		"/Users/Wes/~x.txt",
+		"/Users/Wes/Dropbox/tmp1.txt",
+		"/Users/Wes/Downloads/TEVS_terminal_output.txt",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/try_getting_loc.rb",
+		"/Users/Wes/Desktop/:usr:local:var:postgres:postgresql.conf",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/optionparser.rb",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/2016/Tax2016Wes.TXT",
+		"/Users/Wes/Dropbox/Programming/Ruby/Budget/.git/info/exclude",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/psql_out.txt",
+		"/Users/Wes/Dropbox/Personal/Quotations.txt",
+		"/Users/Wes/.bashrc",
+		"/Users/Wes/.bash_profile",
+		"/Users/Wes/.bash_common_paths",
+		"/Users/Wes/NotForTheCloud/tevs_dump_20170214.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_unexcluded.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/x_hart_totals_.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_wi_condensed_grp.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_bal_voteops_corrected.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart_null_fix.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/tevs_dbdump_20170204.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/tevs_dbdump_20170204.txt",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/XXXreload_OCRC_contest.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/import_ballots_n_voteops.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/d.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/tevs_dump_20170201.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_bal_voteops_corrected_full_join.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_regrouped_2.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_mapped_2_hacked.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_writein_hack_2.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/trylag.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart_2.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/dupe_finder_n_tevs_counts.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/dupe_finder.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_writein_hack_1.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_inconsistency_cnts_format.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/a.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_ballot_by_precinct.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart_by_precinct.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart_by_precinct_format.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart.fulljoin.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart_format.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_mapped.fulljoin.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_bal_voteops_corrected.fulljoin.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts.fulljoin.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/-- View: n_tevs_v_hart.fulljoin.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_bal_voteops_corrected-STASH.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_v_hart.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_harts_ballot_voteops.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_mapped.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_by_pct_format.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_counts_by_pct.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/tmp.txt",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/b.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/y.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/x_t2h_harts_matches_create.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/find_dupes.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/Status of Mapping Corrections.txt",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/n_tevs_voteops_per_precinct.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/backup.backup",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/tevs_data_harts_names.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/x.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/other.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/testbuild.sql",
+		"/Applications/Sublime Text.app/Contents/MacOS/sublime_plugin.py",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/master_query.1.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/hartVtevs.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/hartv.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/load_t2h_choice.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/create_t2h_choice.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/create_t2h_precinct_page.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/load_t2h_precinct_page.sql",
+		"/Users/Wes/Downloads/createMirth.sql",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/helper/checkmissingfiles.csv",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/helper/x.csv",
+		"/Users/Wes/Dropbox/Programming/ElectionTransparency/missingfile.csv",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/MySql/MySQLLoader.sql",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/MySql/MySQLLoader_postgres.sql",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/CREATE HEDIS_QRS_measure_to_valsets.sql",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/MySql/MySQLDDL_postgres.sql",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/2016 HEDIS for the Quality Rating System Value Set Directory_2015-11-20-OO.csv",
+		"/Users/Wes/Dropbox/Programming/HL7/LOINC/LOINC_2.56_Text.zip Folder/2016 HEDISQRS Value Sets to Codes_2015-11-20-keysonly.txt",
+		"/tmp/subl stdin GNEGMg.txt",
+		"/tmp/subl stdin 4jycVq.txt",
+		"/tmp/subl stdin 96E7gr.txt",
+		"/tmp/subl stdin JyYRxk.txt",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/quickstart.js",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/quickstart.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/FastCalendar1.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/FastCalendarSet.js",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/FastCalendar1.css",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/temp.js",
+		"/Users/Wes/Dropbox/Programming/Python/MultiDuper2/fastevent.py",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/gapi.loaded.js",
+		"/Users/Wes/Dropbox/Programming/Python/MultiDuper2/multiduper2.py",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/GoogleQuickstart/quickstart.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/debug.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/debug.js",
+		"/Users/Wes/Dropbox/Programming/Python/MultiDuper2/quickstart.py",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/fastcalsimple1.css",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/fastcal1simple.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/another.html",
+		"/Users/Wes/Dropbox/Programming/Javascript/Calendar/FastCal1simple.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Wes/Dropbox/Programming/FHIR/draft_review/stu3qa.zip Folder",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency,*.sql",
+			"*.sql",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency/*.sql",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency/",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency/*.sql",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency/*.sq;",
+			"/Users/Wes/Dropbox/Programming/ElectionTransparency",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			" ",
+			"\\(.+?\\)",
+			"line",
+			"\\n",
+			"(.+)",
+			".+/(.+)\"",
+			"(\\d\\d)\\.",
+			"%",
+			", ",
+			"''",
+			"\\(",
+			"('\\d+')\\)",
+			"$",
+			"\\t",
+			"^",
+			"^\\t\\n",
+			"\\t\\d+$",
+			"\\t\\t+",
+			"\\n",
+			"'\\),?",
+			".+,'",
+			" +",
+			"\\t",
+			"$",
+			"^",
+			"\\|",
+			"create",
+			"$",
+			" *\\| *",
+			"\"",
+			";",
+			"^.+postgres.+\\n",
+			"postgres",
+			"goal",
+			"\\t+$",
+			"^[ \\t]*\\n",
+			"#$",
+			"#.+$",
+			"fhir+xml",
+			"nil",
+			"maint",
+			"repair",
+			"payment",
+			"rishel",
+			"Household:Repair",
+			"\" nil\"",
+			"lasto",
+			"matching",
+			"\"matching",
+			"DEBUG",
+			"collapse",
+			"outc",
+			",",
+			"\\n",
+			"\"\"\"\"",
+			"\"nil\"",
+			"=> ",
+			"$",
+			"^",
+			" =>",
+			"$",
+			"^\\s+sep",
+			"\\$elim",
+			"^\\t",
+			"\\t",
+			"Donations",
+			" +$",
+			", ",
+			",\\n",
+			"$",
+			"^",
+			"txtype",
+			"sep",
+			"parse_categs",
+			"    end\n",
+			" +",
+			",[ \\t]+",
+			"[^,\\n]+",
+			"[^,]+",
+			"SQ_rb",
+			"(/.{10,})arcata[^/]+",
+			"(/.{10,})eureka[^/]+",
+			"eureka[^/]+",
+			"eureka(, ca)?",
+			"\\s*-[^-\\n]+$",
+			"-[^-]+$",
+			"[\\d\\-\\s]{5,}",
+			"^.+\\t.+\\n",
+			"^",
+			"\",",
+			"\\t\"",
+			"\\],\\s*\\n",
+			"],\\n",
+			"\"\\n",
+			"\"",
+			"^, \"",
+			"\",.+$",
+			"\\],$",
+			"^\\t.+/i?",
+			"\"\\],$",
+			"^.+?\"",
+			"^.+?",
+			"(?<=\\[\\/\\^)(.+)(?=/)",
+			"^\\[\\/\\^(.+?),",
+			"^(.+?),",
+			"pandora",
+			"^.+\"",
+			"\"\\],$",
+			"\\n",
+			"\\t",
+			"%20",
+			"psql:/Users/Wes/Dropbox/Programming/ElectionTransparency/d.sql:7: ",
+			"\\n",
+			" +",
+			"union",
+			"\\n",
+			",,",
+			"  (\\w+)",
+			"  (\\w+),",
+			"(  \\w+).+,",
+			"^(.+)$",
+			"$",
+			"voteops",
+			"v",
+			"voteops",
+			"\\N",
+			"^"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			",\\n",
+			"",
+			"imagefile",
+			", ",
+			"'\\1'",
+			"\\1",
+			".\\1",
+			"",
+			"\\n",
+			"', '",
+			"('MCKINLEYVILLE CSD GOVERNING BOARD MEMBER'",
+			"\\1, \\1)",
+			"'),",
+			"', '",
+			"('",
+			"",
+			"\\t",
+			"",
+			"\\t",
+			"','",
+			"')",
+			"('",
+			"\\n",
+			" <-> ",
+			", ",
+			"",
+			"\\t",
+			"",
+			":no_output",
+			"Household:Maintenance",
+			"nil",
+			",\\n",
+			", ",
+			"\"\"",
+			"nil",
+			"=> \"",
+			"+. \"",
+			"\"",
+			"\"\\t=>",
+			" =>",
+			"",
+			"\\n",
+			"",
+			",\\n",
+			", ",
+			"\",",
+			"\"",
+			"\\t",
+			"",
+			"\\1",
+			"",
+			"\\t",
+			"",
+			",\\n\\t",
+			"\",\\n\\t",
+			"",
+			"\"",
+			"",
+			"\" ",
+			" \"",
+			"   ",
+			" +",
+			" ",
+			"\\n\\n",
+			",",
+			"  sum(\\1) as \\1,",
+			"sum(\\1),",
+			"\\1, ",
+			"'\\1', ",
+			"-T",
+			"v",
+			"-- ",
+			" .\\n",
+			"overvotes",
+			"ov",
+			", ",
+			"public",
+			"",
+			"',\\n'",
+			"\\1(\\2) as \\2_\\1",
+			"),",
+			"",
+			"hunx",
+			"\\ttcm.",
+			"",
+			", ",
+			"'\\1'",
+			"precinct_name",
+			"fnamenum",
+			"code_string",
+			" tcm",
+			" ",
+			"",
+			"'\\1', ",
+			", ",
+			"IS NULL OR",
+			"h.",
+			"tvh",
+			"n_tevs_v_hart_1",
+			" ",
+			"hwh",
+			"",
+			"'   ",
+			"'",
+			"\"",
+			"",
+			"n_harts_ballot_voteops",
+			"n_bal_voteops_corrected",
+			"",
+			" ",
+			",",
+			"",
+			" AS \"\\1\"",
+			" ",
+			"\\1 AS \\1",
+			"/1 AS /1",
+			"",
+			"n_tevs_v_hart",
+			"hart_candidate_name",
+			"hart_contest_title",
+			"bvc",
+			",\\n",
+			",",
+			"ocrc_contest",
+			",\\n\\t",
+			"",
+			",\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.external_command_errors":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "sql_proj.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 3,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

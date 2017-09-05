@@ -1,0 +1,11 @@
+Precinct TEVS,Ballot Page,ballot Side,TEVS Voteops Marked,TEVS Total Voteops,TEVS Voteops not Marked,TEVS Over Votes,Precinct HART,Contest HART,Choice HART,HART Count,HART Ballots,Votes Counted TEVS Minus HART,Total Voteops TEVS Minus HART,ABS Votes Counted TEVS Minus HART,ABS Total Voteops TEVS Minus HART,Margin,Error Pct,Sort Key
+000001,1,1,228,382,154,0,~  2SH-1,Measure I: S. Humboldt ,No,228,0,0,382,0,382,227,   0.00%,2SH-1.Measure I: S. Humboldt Comm HC Parcel Tax.No
+000001,1,1,154,382,228,0,~  2SH-1,Measure I: S. Humboldt ,Yes,154,0,0,382,0,382,227,   0.00%,2SH-1.Measure I: S. Humboldt Comm HC Parcel Tax.Yes
+000002,1,1,102,124,22,0,~  2SH-2,Measure I: S. Humboldt ,No,102,0,0,124,0,124,227,   0.00%,2SH-2.Measure I: S. Humboldt Comm HC Parcel Tax.No
+000002,1,1,22,124,102,0,~  2SH-2,Measure I: S. Humboldt ,Yes,22,0,0,124,0,124,227,   0.00%,2SH-2.Measure I: S. Humboldt Comm HC Parcel Tax.Yes
+000003,1,1,238,524,286,1,~  2SH-4,Measure I: S. Humboldt ,No,239,0,-1,524,1,524,227,   0.44%,2SH-4.Measure I: S. Humboldt Comm HC Parcel Tax.No
+000003,1,1,285,524,239,1,~  2SH-4,Measure I: S. Humboldt ,Yes,285,0,0,524,0,524,227,   0.00%,2SH-4.Measure I: S. Humboldt Comm HC Parcel Tax.Yes
+000004,1,1,312,476,164,1,~  2SH-5,Measure I: S. Humboldt ,No,313,0,-1,476,1,476,227,   0.44%,2SH-5.Measure I: S. Humboldt Comm HC Parcel Tax.No
+000004,1,1,163,476,313,1,~  2SH-5,Measure I: S. Humboldt ,Yes,163,0,0,476,0,476,227,   0.00%,2SH-5.Measure I: S. Humboldt Comm HC Parcel Tax.Yes
+000005,1,1,190,415,225,2,~  2SH-7,Measure I: S. Humboldt ,No,192,0,-2,415,2,415,227,   0.88%,2SH-7.Measure I: S. Humboldt Comm HC Parcel Tax.No
+000005,1,1,223,415,192,2,~  2SH-7,Measure I: S. Humboldt ,Yes,223,0,0,415,0,415,227,   0.00%,2SH-7.Measure I: S. Humboldt Comm HC Parcel Tax.Yes
