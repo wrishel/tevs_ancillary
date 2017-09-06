@@ -66,21 +66,33 @@ truncate table ocrc_contest;
 truncate table harts;
 
 /*
-   1) Run octransforms.py on choices.csv
-   2) edit the output to create acceptable values for each erroneous value
+   1) Run octransforms.py which processes choices.csv and contests.csv
+
+   2) edit OCRC_choices.csv to create acceptable values for each erroneous value that remains.
         (EDITING WITH EXCEL WILL NOT WORK BECAUSE IT GENERATES #NAME VALUES NO MATTER WHAT)
         include "to be fixed in the voteop_good field for values that can't be determined
 
    3) import into ocrc_choice
+
    4) get template and image file names of choices unfixed and create corrections.
 
 
-   5) repeat steps 1-4 for contests.csv, input to ocrc_contest.
+   5) repeat steps 2-4 for contests.csv, importing to ocrc_contest.
  */
 
 -- COPY ocrc_choice (voteop_good, voteop_other) FROM '/Users/Wes/NotForTheCloud/OCRC_choices.csv' with csv
-SELECT max(voteop_good), voteop_other, min(file1),max(code_string)
-  FROM ocrc_choice o, voteops v, ballots b
-  WHERE voteop_good LIKE '%to be fixed%'
-  AND o.voteop_other = v.choice_text and v.ballot_id = b.ballot_id
-  GROUP BY voteop_other
+-- COPY ocrc_contest (voteop_good, voteop_value) FROM '/Users/Wes/NotForTheCloud/OCRC_contests.csv' with csv
+
+-- SELECT max(voteop_good), voteop_other, min(file1),max(code_string)
+--   FROM ocrc_choice o, voteops v, ballots b
+--   WHERE voteop_good LIKE '%to be fixed%'
+--   AND o.voteop_other = v.choice_text and v.ballot_id = b.ballot_id
+--   GROUP BY voteop_other
+
+-- SELECT max(voteop_good), voteop_value, min(file1),max(code_string)
+--   FROM ocrc_contest o, voteops v, ballots b
+--   WHERE voteop_good LIKE '%to be fixed%'
+--   AND o.voteop_value = v.contest_text and v.ballot_id = b.ballot_id
+--   GROUP BY voteop_value
+
+-- select * from ocrc_contest where voteop_good like '%fix%'
